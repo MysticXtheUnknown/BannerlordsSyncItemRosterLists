@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="RussLandCharter"/>
+  <Id value="RussLandCharter"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="StoryMode"/>
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="RussLandCharter"/>
+      <DLLName value="RussLandCharter.dll"/>
+      <SubModuleClassType value="LandCharterMod.LandCharterSubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none"/>
+      </Tags>
+    </SubModule>
+  </SubModules>
+</Module>
