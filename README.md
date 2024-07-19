@@ -99,10 +99,10 @@ return; //sanity
 }
 
 
-#Does the mod do anything else?
+# Does the mod do anything else?
 yes, animals placed in the farm input roster reproduce more animals into the farm output roster, both accessible in the city menu -> visit my lands
 
-#Why can I only put animals and only 50 of them into the input roster?
+# Why can I only put animals and only 50 of them into the input roster?
 
 This is a limitation that i built in on purpose, in preparation for future features like adding storage space.  
 the farm input roster kicks out any items that are not animals!!!
