@@ -1,4 +1,4 @@
-This is open source, do whatever you want.
+This is basically open source, do whatever you want.
 
 # BannerlordsSyncItemRosterLists
 Bannerlords Save Dictionaries of Item Rosters With Example. Because I was too lazy (efficient) a programmer to use butterlib or serialize stuff apparently.
