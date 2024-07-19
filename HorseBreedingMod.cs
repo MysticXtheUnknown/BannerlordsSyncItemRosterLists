@@ -529,7 +529,8 @@ namespace LandCharterMod
         }
 
         public static void russLog(string message)
-        {
+        {    return; //DISABLE THIS LINE TO ALLOW LOGGING. THE LOG FILE WILL GET BIGGER AND BIGGER.
+            //THE FILE IS ON YOUR DESKTOP WHILE YOU PLAY.
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RussBannerlordLogs.txt");
             using (StreamWriter writer = new StreamWriter(path, true))
             {
@@ -542,7 +543,7 @@ namespace LandCharterMod
             return townItemRosters[cityId];
         }
 
-        public static void LogAllSettlements(string filename)
+        public static void LogAllSettlements(string filename) //output settlement list to file. you dont need this.
         { 
             string logFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), $"{filename}.txt");
 
