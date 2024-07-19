@@ -2,6 +2,7 @@
 Bannerlords Save Dictionaries of Item Rosters With Example. Because I was too lazy (efficient) a programmer to use butterlib or serialize stuff apparently.
 
 Requires NO OTHER MODS
+Does not affect settlements other than adding the menu option in the tavern (which adds an option in the main city menu)
 
 # What is this?
 This is an example mod for Mound and Blade Warband 1.2.10 (most recent as of 7/19).  It is fully working.  It adds a menu option to the tavern - start there.
