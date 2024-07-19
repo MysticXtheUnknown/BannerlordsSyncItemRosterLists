@@ -10,7 +10,7 @@ this mod has 3 item rosters per city, they persist across saves using datastore.
 They are Unique per city.
 There is a function to save and a function to load an item roster list.
 This is done without any fancy serialization or butterlib, using bannerlords built in datastore.syncdata properly.
-
+HorseBreedingMod.cs shows how as an example codefile (that i used in visual studio) if you are experienced and want to jump right it.
 # Why do i care?
 We save and load lots of item rosters and organize them really easily.
 
