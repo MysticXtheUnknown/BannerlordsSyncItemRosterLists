@@ -10,6 +10,7 @@ We save and load lots of dictionaries with dictionaries inside. we have 3 item r
 # How do I use this?
 Look at the code, you can see where the itemrosters were defined, and you can see where the itemrosters were saved / loaded using a single function each.
 say you have code like this (this is in the code):
+its a list of cities id's (string), and itemrosters (for trading your loot or items into).
 
 private Dictionary<string, ItemRoster> townItemRosters = new Dictionary<string, ItemRoster>();
 
