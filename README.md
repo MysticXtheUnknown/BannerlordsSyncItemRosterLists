@@ -79,16 +79,22 @@ SaveRosters(dataStore, townFarmInputRosters, "FarmInputInventory"); (in the game
  LoadRosters(dataStore, townFarmOutputRosters, "FarmOutputInventory");
 
  //!! Make sure these calls are made during an if then statement like in my example code!
-
+ 
  if (datastore.IsSaving)
  {
+ 
  ...call functions to save the roster lists.
+
 return; //sanity
+
 }
 
 if (datastore.IsLoading)
 {
+
 ...call the functions to load the roster lists.
+
+return;
 }
 
 
