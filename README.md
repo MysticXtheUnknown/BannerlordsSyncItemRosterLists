@@ -8,7 +8,7 @@ There is a function to save and a function to load an item roster list.
 This is done without any fancy serialization or butterlib.
 
 # Why do i care?
-We save and load lots of dictionaries with dictionaries inside. we have 3 item rosters for each cityt!
+We save and load lots of item rosters and organize them really easily.
 
 # How do I use this?
 Look at the code, you can see where the itemrosters were defined, and you can see where the itemrosters were saved / loaded using a single function each.
