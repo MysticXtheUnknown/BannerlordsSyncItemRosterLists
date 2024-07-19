@@ -2,7 +2,10 @@
 Bannerlords Save Dictionaries of Item Rosters With Example
 
 # What is this?
-This is an example mod for Mound and Blade Warband 1.2.10 (most recent as of 7/19). 
+This is an example mod for Mound and Blade Warband 1.2.10 (most recent as of 7/19).  It is fully working.  It adds a menu option to the tavern - start there.
+this mod has 3 item rosters per city, they persist across saves using datastore.syncdata.
+There is a function to save and a function to load an item roster list.
+This is done without any fancy serialization or butterlib.
 
 # Why do i care?
 We save and load lots of dictionaries with dictionaries inside. we have 3 item rosters for each cityt!
