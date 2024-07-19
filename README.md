@@ -105,5 +105,5 @@ yes, animals placed in the farm input roster reproduce more animals into the far
 # Why can I only put animals and only 50 of them into the input roster?
 
 This is a limitation that i built in on purpose, in preparation for future features like adding storage space.  
-the farm input roster kicks out any items that are not animals!!!
+the farm input roster kicks out any items that are not animals!!! it puts them back in your inventory in both cases.
         
