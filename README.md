@@ -9,7 +9,7 @@ This is an example mod for Mound and Blade Warband 1.2.10 (most recent as of 7/1
 this mod has 3 item rosters per city, they persist across saves using datastore.syncdata.
 They are Unique per city.
 There is a function to save and a function to load an item roster list.
-This is done without any fancy serialization or butterlib.
+This is done without any fancy serialization or butterlib, using bannerlords built in datastore.syncdata properly.
 
 # Why do i care?
 We save and load lots of item rosters and organize them really easily.
