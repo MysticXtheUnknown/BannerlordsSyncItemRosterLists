@@ -47,16 +47,39 @@ and this function to load:
 and we call them like this:
 
 //save the main inventory
- SaveRosters(dataStore, townItemRosters, "MainInventory");
 
- // Save the farm input inventories
- SaveRosters(dataStore, townFarmInputRosters, "FarmInputInventory"); (in the game menu it reads 'warehouse'
+SaveRosters(dataStore, townItemRosters, "MainInventory");
+
+//and Save the farm input inventories
+ 
+SaveRosters(dataStore, townFarmInputRosters, "FarmInputInventory"); (in the game menu it reads 'warehouse'
 
  // Save the farm output inventories
  SaveRosters(dataStore, townFarmOutputRosters, "FarmOutputInventory");
 
- #
+ //THEN, we can load them later.
 
+  // Load the town rosters
+ LoadRosters(dataStore, townItemRosters, "MainInventory");
+
+ // Load the farm input inventories
+ LoadRosters(dataStore, townFarmInputRosters, "FarmInputInventory");
+
+ // Load the farm output inventories
+ LoadRosters(dataStore, townFarmOutputRosters, "FarmOutputInventory");
+
+ //!! Make sure these calls are made during an if then statement like in my example code!
+
+ if (datastore.IsSaving)
+ {
+ ...call functions to save the roster lists.
+return; //sanity
+}
+
+if (datastore.IsLoading)
+{
+...call the functions to load the roster lists.
+}
 
 
 
