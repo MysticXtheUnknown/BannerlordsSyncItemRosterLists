@@ -2,6 +2,8 @@ This is basically open source, do whatever you want.
 
 # BannerlordsSyncItemRosterLists
 Bannerlords Save Dictionaries of Item Rosters With Example. Because I was too lazy (efficient) a programmer to use butterlib or serialize stuff apparently.
+Butterlib does not support saving of item rosters within a dictionary <string, itemRoster> like this.
+So here i have a solution for you that works without any other mods.
 
 Requires NO OTHER MODS
 Does not affect settlements other than adding the menu option in the tavern (which adds an option in the main city menu)
